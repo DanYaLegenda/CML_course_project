@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../style/xml.css"?>
+
+<list>
+    <card>
+        <title>Гитарная школа "Антимузыкалка"</title>
+        <subtitle>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, ducimus.
+        </subtitle>
+    </card>
+
+    <card>
+        <title>Модельное агенство "Шаг"</title>
+        <subtitle>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, ducimus.
+        </subtitle>
+    </card>
+
+    <card>
+        <title>Школа исскуства "Art School"</title>
+        <subtitle>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, ducimus.
+        </subtitle>
+    </card>
+
+    <card>
+        <title>Народные танцы "Хоровод"</title>
+        <subtitle>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, ducimus.
+        </subtitle>
+    </card>
+
+    <card>
+        <title>Cotemporary dance</title>
+        <subtitle>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, ducimus.
+        </subtitle>
+    </card>
+
+    <card>
+        <title>Juzz Funk dance</title>
+        <subtitle>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, ducimus.
+        </subtitle>
+    </card>
+
+    <card>
+        <title>Schuffle dance school</title>
+        <subtitle>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, ducimus.
+        </subtitle>
+    </card>
+
+    <card>
+        <title>Школа брей-данса и хип-хопа</title>
+        <subtitle>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, ducimus.
+        </subtitle>
+    </card>
+
+    <card>
+        <title>Школа актёрского мастерства</title>
+        <subtitle>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, ducimus.
+        </subtitle>
+    </card>
+
+    <card>
+        <title>Школа вокала "Free voice"</title>
+        <subtitle>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, ducimus.
+        </subtitle>
+    </card>
+</list>

@@ -1,0 +1,66 @@
+.intro {
+    position: relative;
+
+    width: 100%;
+    height: 100vh;
+
+    background: url('../../img/intro/intro.jpg') center no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.intro__inner {
+    width: 100%;
+    height: 100vh;
+    background: (0, 0, 0, .8);
+
+    display: flex;
+    align-items: center;
+}
+
+.intro__title {
+    width: 100vw;
+    height: 350px;
+
+    background: rgba(0, 0, 0, .7);
+}
+
+.intro__title .container {
+    font-size: 60px;
+    width: 100%;
+    max-width: 1230px;
+
+    padding: 0 15px;
+
+    display: flex;
+    align-items: center;
+
+    position: relative;
+}
+
+
+@media (max-width: 998px) {
+    .intro__title .container {
+        font-size: 45px;
+    }
+    .intro__title {
+        height: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro__title .container {
+        font-size: 38px;
+    }
+    .intro__title {
+        height: 200px;
+    }
+}
+
+@media (max-width: 360px)
+{
+    .intro__title {
+        font-size: 36px;
+    }
+}
+

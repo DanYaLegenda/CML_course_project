@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/news/link.css">
+    <link rel="shortcut icon" href="../img/icon/icon.png" type="image/x-icon">
+    
+    <title>Новости</title>
+</head>
+<body>
+
+<div class="page">
+    <header class="header fixed" id = "header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html"><img src="../img/logo.svg" alt="" class="logo"></a>
+                <nav class="nav">
+                    <button onclick="dropMenu()" class="burger">
+                        <span></span>
+                    </button>
+
+                    <div class="dropdownn_content" id="dropdownn">
+                        <a href="index.html" class="navig">Главная</a>
+                        <a href="#" class="navig active">Новости</a>
+                        <a href="list.html" class="navig">Список учреждений</a>
+                        <a href="contacts.html" class="navig">Контакты</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header> <!-- header -->
+
+    <div class="container_news">
+        <h1 class="title">
+            Новости
+        </h1>
+    
+        <div class="card">
+            <p class="text">
+                На канале основателя гитарной школы “<a href="">Антимузыкалка</a>” стукнуло 150к подписчиков!
+            </p>
+            <img src="../img/news/news1.png" alt="" class="img">
+            <p class="text">
+                Давайте поддержим его, ведь канал способен на большее!
+            </p>
+        </div>
+
+        <div class="card">
+            <p class="text">
+                С модельного агенства “<a href="">Шаг</a>” отправились модели на показ нового бренда “Nova”. Самой запоминающей была Виктория Комкова, которая ходит уже около 7 лет в школу
+            </p>
+            <div class="slider">
+                <img src="../img/news/slide2.jpg" alt="" class="slide">
+            </div>
+            <p class="text">
+                Для моделей школы это событие было полностью бесплатным и школа сама оплачивала, а моделям был приятный опыт в выступлении. 
+            </p>
+        </div>
+
+        <div class="card">
+            <p class="text">
+                Был анонсирован международный конкурс от <a href="">natashaguitar</a>, цель которого была записать любой кавер на любую песню в стиле Фингерстайла. Участие в этом принял один из студентов гитарной школы “<a href="">Антимузыкалка</a>” Стэн Керил
+            </p>
+
+            <div class="c-video">
+                <video src="../video/news3.mp4" class="videos" controls></video>
+            </div>
+
+            <p class="text">
+                Он записал кавер на известную и сложную композицию John Butler - Ocean. Пожелаем ему удачи!
+            </p>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="container">
+            <h2 class="logo">
+                ACT
+            </h2>
+            <div class="block">
+                <div class="contacts">
+                    <p>
+                        Почта: actcompany@mail.ru <br>
+                        ФАКС: 8 (029) 888-88-88 <br>
+                        A1: +375 (29) 888 88-88 <br>
+                        МТС: +375 (44) 888 88-88 <br>
+                    </p>
+                </div>
+                <nav class="navfooter">
+                    <ul>
+                        <li><a href="index.html" class="navig_footer">Главная</a></li>
+                        <li><a href="#" class="navig_footer">Новости</a></li>
+                        <li><a href="list.html" class="navig_footer">Список учреждений</a></li>
+                        <li><a href="contacts.html" class="navig_footer">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+<script src="../script/burger.js"></script>
+</body>
+</html>
